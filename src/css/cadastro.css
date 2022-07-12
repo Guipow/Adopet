@@ -1,0 +1,95 @@
+/* ==================== GERAL ==================== */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap');
+
+:root {
+    --azul: hsl(222, 100%, 61%);
+    --verde: hsl(165, 66%, 53%);
+    --coral: hsl(360, 96%, 71%);
+    --creme: hsl(31, 81%, 94%);
+    --cinza: hsl(240, 5%, 48%);
+    --cinza-claro: hsl(0, 0%, 74%);
+    --cinza-claro-fundo: hsl(0, 0%, 97%);
+    --branco: #ffffff;
+    
+    font-size: 62.5%;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ==================== MAIN ==================== */
+#cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-text {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    color: var(--azul);
+
+    padding: 0 2.4rem;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+
+.formulario-cadastro {
+    display: flex;
+    flex-direction: column;
+    
+    padding-top: 2.4rem;
+    align-items: center;
+}
+.formulario-cadastro label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--cinza);
+}
+.input-cadastro {
+    width: 31.2rem;
+    height: 4rem;
+    background: #F7F7F7;
+    border: none;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: .6rem;
+    margin: .6rem 0 2rem 0;
+}
+.input-cadastro::-moz-placeholder {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: #BCBCBC;
+    text-align: center;
+
+}
+.btn-cadastro {
+    width: 148px;
+    height: 40px;
+    margin: .4rem 0 10.5rem 0;
+
+    border: none;
+    background: #FC7071;
+    border-radius: .6rem;
+    text-align: center;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    cursor: pointer;
+
+    color: var(--branco);
+}

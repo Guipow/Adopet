@@ -8,16 +8,15 @@
 
     <link rel="stylesheet" href="/src/css/reset.css">
     <link rel="stylesheet" href="/src/css/base.css">
-    <link rel="stylesheet" href="/src/css/home.css">
+    <link rel="stylesheet" href="/src/css/cadastro.css">
 
-    <title>Bem Vindo | AdoPet</title>
+    <title>Cadastro | AdoPet</title>
 </head>
+<body class="body-background">
 
-<body class="body-bg">
-
-    <header>   
+    <header>
         <div class="buttons-header">
-            <a href="#">
+            <a href="/index.html">
                 <svg width="20" height="23" viewBox="0 0 20 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 23V7.66667L9.66 0L19.2 7.66667V23H12.18V13.8958H6.99V23H0ZM1.8 21.0833H5.19V11.9792H13.98V21.0833H17.4V8.625L9.66 2.39583L1.8 8.625V21.0833Z" fill="white"/>
                 </svg>
@@ -33,17 +32,29 @@
 
     <main>
 
-        <section id="home">
-            <img class="img-logo" src="/src/img/Logo branco.svg" alt="">
-            
-                <p>Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a gente!</p>
-    
-            <div class="buttons-container">
-                <a href="#"><button class="btn-home">Já tenho conta</button></a>
-                <a href="/cadastro.html"><button class="btn-home">Quero me cadastrar</button></a>
+        <section id="cadastro">
+            <img class="img-logo" src="/src/img/Logo azul.svg" alt="">
+
+            <div class="container-text">
+                <p>Ainda não tem cadastro?</p>
+                <p>Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
             </div>
-    
-            <img src="/src/img/Ilustração 1.svg" alt="">
+
+            <form class="formulario-cadastro">
+                <label for="email">Email</label>
+                <input class="input-cadastro" id="email" placeholder="Escolha seu melhor email" type="text">
+
+                <label for="nome">Nome</label>
+                <input class="input-cadastro" id="nome" placeholder="Digite seu nome completo" type="text">
+
+                <label for="senha">Senha</label>
+                <input class="input-cadastro" id="senha" placeholder="Crie uma senha" type="text">
+
+                <label for="conf-senha">Confirme sua Senha</label>
+                <input class="input-cadastro" id="conf-senha" placeholder="Repita a senha criada acima" type="text">
+
+                <button class="btn-cadastro">Cadastrar</button>
+            </form>
         </section>
 
     </main>

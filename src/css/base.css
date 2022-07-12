@@ -1,0 +1,91 @@
+/* ==================== GERAL ==================== */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap');
+
+:root {
+    --azul: hsl(222, 100%, 61%);
+    --verde: hsl(165, 66%, 53%);
+    --coral: hsl(360, 96%, 71%);
+    --creme: hsl(31, 81%, 94%);
+    --cinza: hsl(240, 5%, 48%);
+    --cinza-claro: hsl(0, 0%, 74%);
+    --cinza-claro-fundo: hsl(0, 0%, 97%);
+    --branco: #ffffff;
+    
+    font-size: 62.5%;
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    font-size: 1.6rem;
+    margin: 0 auto;
+}
+
+.body-background {
+    background-color: var(--branco);
+    background-image: 
+        url(../img/Patas.svg),
+        url(../img/forma-superior.svg), 
+        url(../img/forma-lateral-invertida.svg);
+    background-repeat: no-repeat;
+    background-position: top right, top left, 0% 75%;
+}
+
+.body-bg {
+    background-color: var(--azul);
+    background-image: 
+        url(../img/forma-superior.svg), 
+        url(../img/forma-lateral.svg);
+    background-repeat: no-repeat;
+    background-position: top left, center right, center bottom 4.2rem;
+}
+
+/* ==================== HEADER ==================== */
+
+header {
+    width: 36rem;
+    height: 10rem;
+    margin: 0 auto;
+}
+
+.buttons-header {
+    display: flex;
+    gap: 5.8rem;
+    align-items: center;
+    padding: 4.8rem 0 0 4.8rem;
+}
+
+.img-logo {
+    padding: 9.8rem 0 2.4rem 0;
+    text-align: center;
+}
+
+
+/* ==================== FOOTER ==================== */
+
+footer {
+    width: 100vw;
+    height: 104px;
+    margin: 0 auto;
+    background-color: var(--verde);
+
+    display: flex;
+    align-items: center;
+}
+.footer-container {
+    width: 36rem;
+    margin: 0 auto;
+    text-align: center;
+
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--branco);
+}
+
