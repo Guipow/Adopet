@@ -36,35 +36,57 @@ body {
     background-position: top right, top left, 0% 75%;
 }
 
+.home-background {
+    background-color: var(--branco);
+    background-image:
+        url(../img/forma-superior.svg);
+        background-repeat: no-repeat;
+        background-position: top left;
+}
+
 .body-bg {
     background-color: var(--azul);
     background-image: 
         url(../img/forma-superior.svg), 
         url(../img/forma-lateral.svg);
     background-repeat: no-repeat;
-    background-position: top left, center right, center bottom 4.2rem;
+    background-position: top left, center right;
 }
 
 /* ==================== HEADER ==================== */
 
 header {
     width: 36rem;
-    height: 10rem;
-    margin: 0 auto;
+    margin: 0 auto 7.2rem auto;
 }
 
 .buttons-header {
     display: flex;
     gap: 5.8rem;
     align-items: center;
-    padding: 4.8rem 0 0 4.8rem;
 }
 
 .img-logo {
-    padding: 9.8rem 0 2.4rem 0;
+    padding: 2.6rem 0 2.4rem 0;
     text-align: center;
 }
 
+.buttons-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4rem 3.7rem 0 3.7rem;
+}
+
+.container-text p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-align: center;
+
+    color: var(--azul);
+}
 
 /* ==================== FOOTER ==================== */
 

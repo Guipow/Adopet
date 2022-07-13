@@ -8,9 +8,9 @@
 
     <link rel="stylesheet" href="/src/css/reset.css">
     <link rel="stylesheet" href="/src/css/base.css">
-    <link rel="stylesheet" href="/src/css/cadastro.css">
+    <link rel="stylesheet" href="/src/css/login.css">
 
-    <title>Cadastro | AdoPet</title>
+    <title>Login | AdoPet</title>
 </head>
 <body class="body-background">
 
@@ -30,35 +30,33 @@
                     </svg> 
                 </a>
             </div>
-
+            
         </div>
     </header>
 
     <main>
 
-        <section id="cadastro">
+        <section id="login">
             <img class="img-logo" src="/src/img/Logo azul.svg" alt="">
 
-            <div class="container-text text-cad">
-                <p>Ainda não tem cadastro?</p>
-                <p>Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
+            <div class="container-text">
+                <p>Já tem conta? Faça seu login:</p>
             </div>
 
-            <form class="formulario-cadastro">
-                <label for="email-cadastro">Email</label>
-                <input class="input-cadastro" id="email-cadastro" placeholder="Escolha seu melhor email" type="email">
+            <form action="" class="form-login">
 
-                <label for="nome-cadastro">Nome</label>
-                <input class="input-cadastro" id="nome-cadastro" placeholder="Digite seu nome completo" type="text">
+                <label for="email-login">Email</label>
+                <input class="input-login" id="email-login" placeholder="Digite seu nome completo" type="email">
 
-                <label for="senha-cadastro">Senha</label>
-                <input class="input-cadastro" id="senha-cadastro" placeholder="Crie uma senha" type="password">
+                <label for="senha-login">Senha</label>
+                <input class="input-login" id="senha-login" placeholder="Crie uma senha" type="password">
 
-                <label for="conf-senha">Confirme sua Senha</label>
-                <input class="input-cadastro" id="conf-senha" placeholder="Repita a senha criada acima" type="password">
+                <a href="">Esqueci minha senha.</a>
 
-                <button class="btn-cadastro">Cadastrar</button>
+                <button class="btn-login">Entrar</button>
+
             </form>
+           
         </section>
 
     </main>

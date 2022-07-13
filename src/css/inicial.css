@@ -1,0 +1,72 @@
+/* ==================== GERAL ==================== */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap');
+
+:root {
+    --azul: hsl(222, 100%, 61%);
+    --verde: hsl(165, 66%, 53%);
+    --coral: hsl(360, 96%, 71%);
+    --creme: hsl(31, 81%, 94%);
+    --cinza: hsl(240, 5%, 48%);
+    --cinza-claro: hsl(0, 0%, 74%);
+    --cinza-claro-fundo: hsl(0, 0%, 97%);
+    --branco: #ffffff;
+    
+    font-size: 62.5%;
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ==================== MAIN ==================== */
+
+#welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#welcome h1 {
+    font-family: 'IBM Plex Sans';
+    font-size: 2.6rem;
+    line-height: 4.8rem;
+    color: var(--branco);
+    margin-bottom: 1.6rem;
+}
+
+#welcome p {
+    margin: 0 auto;
+    padding: 0 5.6rem;
+
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-align: center;
+    color: var(--branco);
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+
+    margin: 2.4rem 0 2.4rem 0;
+}
+
+.btn-welcome {
+    width: 18rem;
+    height: 4rem;
+
+    background: #FC7071;
+    border: .1rem solid #FC7071;
+    border-radius: .6rem;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+    
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--branco);
+
+}
